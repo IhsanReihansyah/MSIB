@@ -1,15 +1,37 @@
-h3 {
-    color: gray;
+form {
+    background: white;
+    padding: 10px;
+    border: 1px solid grey;
 }
 
-p {
-    font-size: 15px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.top {
-    background: #DDDDDD;
+table {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
-    padding-top: 50px;
-    border: 2px solid red;
+}
+
+h1 {
+    font-family: Instagram Sans;
+}
+
+.img1 {
+    width: auto;
+}
+
+.img2 {
+    width: 140px;
+}
+
+.img3 {
+    width: 13px;
+}
+
+.submit {
+    background-color: rgb(93, 91, 224);
+    color: white;
+    padding: 0.3em 5em;
+}
+
+.input {
+    
 }
