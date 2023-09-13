@@ -1,13 +1,22 @@
-form {
+.form1 {
     background: white;
-    padding: 10px;
-    border: 1px solid grey;
+    padding: 30px;
+    border: 1px solid rgb(158, 156, 156);
+    padding-bottom: 5px;
+    padding-top: 15px;
+    border-radius: 2px;
+}
+
+.form2 {
+    background: white;
+    padding: 0px;
+    border: 1px solid rgb(158, 156, 156);
+    border-radius: 2px;
 }
 
 table {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
 }
 
 h1 {
@@ -15,11 +24,13 @@ h1 {
 }
 
 .img1 {
+    height: 500px;
     width: auto;
+    padding: 30px;
 }
 
 .img2 {
-    width: 140px;
+    width: 170px;
 }
 
 .img3 {
@@ -27,11 +38,35 @@ h1 {
 }
 
 .submit {
-    background-color: rgb(93, 91, 224);
+    background-color: #0095f6;
     color: white;
-    padding: 0.3em 5em;
+    width: 263px;
+    height: 30px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 7px;
 }
 
 .input {
-    
+    width: 250px;
+    height: 35px;
+    font-size: 13px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: ghostwhite;
+    padding-left: 8px;
+    margin: -5px;
+}
+
+.logo {
+    width: 110px;
+}
+
+.footer {
+    text-align: center; 
+    color: gray; 
+    position: relative; 
+    width: 100%; 
+    font-size: 13px; 
+    bottom: 0;
 }
